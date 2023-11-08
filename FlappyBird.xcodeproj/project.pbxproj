@@ -12,6 +12,7 @@
 		98A86FDE2AFC2E63005BEE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A86FDD2AFC2E63005BEE16 /* Assets.xcassets */; };
 		98A86FE12AFC2E63005BEE16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A86FE02AFC2E63005BEE16 /* Preview Assets.xcassets */; };
 		98A86FE82AFC3331005BEE16 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A86FE72AFC3331005BEE16 /* BirdView.swift */; };
+		98A86FEA2AFC35D3005BEE16 /* PipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A86FE92AFC35D3005BEE16 /* PipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		98A86FDD2AFC2E63005BEE16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98A86FE02AFC2E63005BEE16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98A86FE72AFC3331005BEE16 /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		98A86FE92AFC35D3005BEE16 /* PipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				98A86FD92AFC2E61005BEE16 /* FlappyBirdApp.swift */,
 				98A86FDB2AFC2E61005BEE16 /* ContentView.swift */,
+				98A86FE92AFC35D3005BEE16 /* PipeView.swift */,
 				98A86FDD2AFC2E63005BEE16 /* Assets.xcassets */,
 				98A86FE72AFC3331005BEE16 /* BirdView.swift */,
 				98A86FDF2AFC2E63005BEE16 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				98A86FE82AFC3331005BEE16 /* BirdView.swift in Sources */,
 				98A86FDC2AFC2E61005BEE16 /* ContentView.swift in Sources */,
+				98A86FEA2AFC35D3005BEE16 /* PipeView.swift in Sources */,
 				98A86FDA2AFC2E61005BEE16 /* FlappyBirdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
