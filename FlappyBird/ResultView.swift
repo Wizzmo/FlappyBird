@@ -8,11 +8,32 @@
 import SwiftUI
 
 struct ResultView: View {
+    let score: Int
+    let hightScore: Int
+    let resetAction: () -> Void
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Game Over")
+                .font(.largeTitle)
+                .padding()
+            Text("Score: \(score)")
+                .font(.title)
+            Text("BEST: \(hightScore)")
+                .padding()
+            Button("RESET", action: resetAction)
+                .padding()
+                .background(.blue)
+                .foregroundStyle(.white)
+                .clipShape(.rect(cornerRadius: 10))
+                .padding()
+        }
+        .background(.white.opacity(0.8))
+        .clipShape(.rect(cornerRadius: 20))
+        .padding()
     }
 }
 
 #Preview {
-    ResultView()
+    ResultView(score: 5, hightScore: 8, resetAction: {})
 }
