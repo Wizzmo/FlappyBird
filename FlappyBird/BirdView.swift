@@ -15,6 +15,7 @@ struct BirdView: View {
             .resizable()
             .scaledToFit()
             .frame(width: birdSize, height: birdSize)
+//          .border(.red, width: 2)
     }
 }
 

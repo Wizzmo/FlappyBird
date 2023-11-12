@@ -23,6 +23,7 @@ struct PipeView: View {
                     .resizable()
                     .rotationEffect(.degrees(180))
                     .frame(width: pipeWidth, height: topPipeHeight)
+                //  .border(.black, width: 2)
                 
                 Spacer()
                     .frame(height: pipeSpacing)
@@ -30,6 +31,7 @@ struct PipeView: View {
                 Image(.flappeBirdPipe)
                     .resizable()
                     .frame(width: pipeWidth, height: bottomPipeHeight)
+                //  .border(.black, width: 2)
             }
         }
     }
